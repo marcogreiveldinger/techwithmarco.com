@@ -101,16 +101,16 @@ export default function Home() {
           </p>
         </Link>
       </div>
-      <div className="flex items-stretch">
-        <p className="text-white font-mono">
+      <div className="flex items-stretch dark:text-white">
+        <p className="font-mono">
           <Link
               href="/imprint"
               className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           >
-          Imprint
-            </Link>
+            Imprint
+          </Link>
         </p>
-        <p className="text-white font-mono">
+        <p className="font-mono">
           <Link
               href="/privacy-policy"
               className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"

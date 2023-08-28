@@ -33,8 +33,7 @@ export default function Home() {
 
                 <div
                     className="mb-32 grid relative place-items-center justify-between">
-                    <h1 className="mb-4 text-4xl font-mono font-black">Subscribe to my weekly programming espresso newsletter</h1>
-                    <NewsletterForm />
+                    <h1 className="mb-4 text-4xl font-mono font-black">Thanks for signing up!</h1>
                 </div>
 
                 <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">

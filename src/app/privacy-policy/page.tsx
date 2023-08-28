@@ -493,6 +493,77 @@ const PrivacyPolicyPage: React.FC = () => {
                     </Link>
                     .
                 </p>
+
+                <h1 className="text-3xl font-bold mt-8">
+                    6. Use of customer data for direct marketing
+                </h1>
+                <h2 className="text-xl font-bold mt-8">
+                    6.1 Subscribe to our e-mail newsletter
+                </h2>
+                <p>
+                    If you subscribe to our e-mail newsletter, we will send you information about our offers on a
+                    regular basis. Mandatory information for sending the newsletter is only your e-mail address. The
+                    provision of further data is voluntary and will be used to address you personally. For sending the
+                    newsletter we use the so-called double opt-in procedure. This means that we will only send you an
+                    e-mail newsletter after you have expressly confirmed that you consent to receiving newsletters. We
+                    will then send you a confirmation e-mail asking you to confirm that you wish to receive the
+                    newsletter in the future by clicking on an appropriate link.
+                </p>
+                <p>
+                    By activating the confirmation link, you give us your consent for the use of your personal data in
+                    accordance with Art. 6 para. 1 lit. a GDPR. When you register for the newsletter, we store your IP
+                    address entered by your Internet service provider (ISP) as well as the date and time of registration
+                    in order to be able to trace any possible misuse of your e-mail address at a later date. The data
+                    collected by us when you register for the newsletter is used exclusively for the purpose of
+                    addressing you in an advertising manner by way of the newsletter. You can unsubscribe from the
+                    newsletter at any time via the link provided for this purpose in the newsletter or by sending a
+                    corresponding message to the person responsible mentioned at the beginning. After unsubscribing,
+                    your e-mail address will be deleted from our newsletter distribution list immediately, unless you
+                    have expressly consented to further use of your data or we reserve the right to use your data in a
+                    manner that goes beyond this, which is permitted by law and about which we inform you in this
+                    declaration.
+                </p>
+
+                <h2 className="text-xl font-bold mt-8">
+                    6.2 Newsletter sending via Brevo
+                </h2>
+                <p>
+                    Our email newsletter is sent via the technical service provider Sendinblue GmbH, Köpenicker Str.
+                    126, 10179 Berlin, to whom we pass on the data you provided when registering for the newsletter.
+                    This forwarding takes place in accordance with Art. 6 (1) lit. f GDPR and serves our legitimate
+                    interest in using a newsletter system that is effective in advertising, secure and user-friendly.
+                    The data entered by you for the purpose of receiving the newsletter (e.g. e-mail address) will be
+                    stored on Brevo's servers in the EU.
+                </p>
+                <p>
+                    Brevo uses this information to send and statistically evaluate the newsletters on our behalf.
+                    For the evaluation, the sent emails contain so-called web beacons or tracking pixels, which are
+                    single-pixel image files that are stored on our website. This makes it possible to determine whether
+                    a newsletter message has been opened and which links, if any, have been clicked on. In addition,
+                    technical information is recorded (e.g. time of retrieval, IP address, browser type and operating
+                    system). The data is collected exclusively pseudonymously and is not linked to your other personal
+                    data, a direct personal reference is excluded. This data is used exclusively for the statistical
+                    analysis of newsletter campaigns. The results of these analyses can be used to better adapt future
+                    newsletters to the interests of the recipients. If you wish to object to the data analysis for
+                    statistical evaluation purposes, you must unsubscribe from the newsletter.
+                </p>
+                <p>
+                    Furthermore, Brevo may use this data itself pursuant to Art. 6 (1) (f) GDPR on the basis of
+                    its own legitimate interest in the needs-based design and optimization of the service, as well as
+                    for market research purposes, for example, to determine from which countries the recipients come.
+                    However, Brevo does not use the data of our newsletter recipients to write to them itself or to
+                    pass them on to third parties.
+                    We have concluded an order processing agreement with Brevo, with which we oblige Brevo to
+                    protect our customers' data and not to pass it on to third parties.
+                    You can view Brevo's privacy policy here:{' '}
+                    <Link
+                        href="https://de.sendinblue.com/legal/privacypolicy/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        https://de.sendinblue.com/legal/privacypolicy/
+                    </Link>
+                </p>
             </div>
         </main>
     );
