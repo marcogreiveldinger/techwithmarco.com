@@ -533,7 +533,7 @@ const PrivacyPolicyPage: React.FC = () => {
                     This forwarding takes place in accordance with Art. 6 (1) lit. f GDPR and serves our legitimate
                     interest in using a newsletter system that is effective in advertising, secure and user-friendly.
                     The data entered by you for the purpose of receiving the newsletter (e.g. e-mail address) will be
-                    stored on Brevo's servers in the EU.
+                    stored on Brevo&apos;s servers in the EU.
                 </p>
                 <p>
                     Brevo uses this information to send and statistically evaluate the newsletters on our behalf.
@@ -554,8 +554,8 @@ const PrivacyPolicyPage: React.FC = () => {
                     However, Brevo does not use the data of our newsletter recipients to write to them itself or to
                     pass them on to third parties.
                     We have concluded an order processing agreement with Brevo, with which we oblige Brevo to
-                    protect our customers' data and not to pass it on to third parties.
-                    You can view Brevo's privacy policy here:{' '}
+                    protect our customers&apos; data and not to pass it on to third parties.
+                    You can view Brevo&apos;s privacy policy here:{' '}
                     <Link
                         href="https://de.sendinblue.com/legal/privacypolicy/"
                         target="_blank"
