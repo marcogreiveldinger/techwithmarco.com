@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import NewsletterForm from '@/components/Newsletterform'
+import Emoji from "@/components/Emoji";
 
 export default function Home() {
     return (
@@ -33,8 +34,12 @@ export default function Home() {
 
                 <div
                     className="mb-32 grid relative place-items-center justify-between">
-                    <h1 className="mb-4 text-4xl font-mono font-black">Please confirm your subscription.</h1>
-                    <h1 className="mb-4 text-4xl font-mono font-black">Check your inbox!</h1>
+                    <h1 className="mb-4 text-4xl font-mono font-black">Bye bye!</h1>
+                    <div className="text-9xl">
+                        <Emoji symbol="👋" label="wave"/>
+                        <Emoji symbol="😢" label="sad"/>
+                    </div>
+                    <h1 className="mt-4 text-xl font-mono font-black">Hopefully we&apos;ll see us again.</h1>
                 </div>
 
                 <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
