@@ -25,7 +25,7 @@ export default function Home() {
 
       <div className="relative flex justify-center">
         <Image
-          className="relative"
+          className="relative rounded-lg"
           src="/banner.png"
           alt="Tech with Marco"
           width={960}
