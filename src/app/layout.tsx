@@ -23,6 +23,7 @@ export default function RootLayout({
                 domain="techwithmarco.com"
                 customDomain="https://plausible.prd.marco-greiveldinger.de"
                 selfHosted={true}
+                trackOutboundLinks={true}
             />
         </head>
         <body className={inter.className}>{children}</body>
